@@ -1,1 +1,65 @@
-/*Шапка*/
+:root {
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-white: #ffffff;
+  --color-dairy: #fcfcfc;
+}
+body {
+  font-family: "Roboto";
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+/*heder*/
+.text-nav {
+  /* NAVY BLUE */
+  color: #2e2f42;
+}
+.text-logo {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+
+  /* identical to box height, or 117% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* IRIS */
+  color: #4d5ae5;
+}
+.text-logo-stdio-footer {
+  /* CLOUD */
+  color: #f4f4fd;
+}
+.text-nav-2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  /* identical to box height, or 150% */
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+  color: #2e2f42;
+}
+
+/*footer*/
+
+.text-logo-stdio-footer {
+  /* CLOUD */
+  color: #f4f4fd;
+}
