@@ -80,9 +80,10 @@ body {
   color: var(--color-white);
 }
 
-/*batton-studio*/
+/*batton*/
 .text-button-studio {
   /* Button Text */
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -93,12 +94,86 @@ body {
   letter-spacing: 0.04em;
 
   /* WHITE */
-  color: #ffffff;
+  color: var(--color-white);
 }
+.button-studio-color {
+  background-color: var(--color-iris);
+}
+
+.text-button-studio:hover,
+.text-button-studio:focus {
+  color: var(--color-ocean);
+  cursor: pointer;
+}
+/*section 2 studio*/
+
+.features-titel {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  /* identical to box height, or 120% */
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+  color: var(--color-navy-blue);
+}
+.features-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  /* or 150% */
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+  color: var(--color-slate);
+}
+/*section 3 background: #F4F4FD;*/
+.team-backgr {
+  background-color: var(--color-cloud);
+}
+.titels {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 11;
+  /* identical to box height, or 111% */
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-navy-blue);
+}
+.team-cards-fon {
+  background-color: var(--color-white);
+}
+.team-cards-titel {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+
+  /* identical to box height, or 120% */
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+
+.team-cards-prof {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+  color: var(--color-slate);
+}
+/*sec*/
+/*buttons-portfolio*/
+/*button1-as button studio*/
 .text-button-studio-portfolio:hover,
 .text-button-studio-portfolio:focus {
   color: var(--color-ocean);
 }
+
 .text-buttons-2 {
   font-weight: 500;
   font-size: 16px;
@@ -113,10 +188,27 @@ body {
   /* IRIS */
   color: #4d5ae5;
 }
-/*footer*/
+
+/*footers*/
+.footer-fon {
+  background-color: var(--color-navy-blue);
+}
 
 .text-logo-stdio-footer {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   /* CLOUD */
   color: #f4f4fd;
+}
+.text-footer {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  /* or 150% */
+  letter-spacing: 0.02em;
+
+  /* CLOUD */
+  color: var(--color-cloud);
 }
