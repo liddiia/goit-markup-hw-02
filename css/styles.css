@@ -102,7 +102,7 @@ body {
 
 .text-button-studio:hover,
 .text-button-studio:focus {
-  color: var(--color-ocean);
+  background-color: var(--color-ocean);
   cursor: pointer;
 }
 /*section 2 studio*/
@@ -136,7 +136,7 @@ body {
 .titels {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 11;
+  line-height: 1.11;
   /* identical to box height, or 111% */
   text-align: center;
   letter-spacing: 0.02em;
