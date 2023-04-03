@@ -67,10 +67,10 @@ body {
 
   /* identical to box height, or 150% */
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-slate);
 }
 .text-adress:focus,
-.text-nav:hover {
+.text-adress:hover {
   color: var(--color-ocean);
 }
 
@@ -182,12 +182,8 @@ body {
 /*sec*/
 /*buttons-portfolio*/
 
-.button-portfolio:hover,
-.button-portfolio:focus {
-  color: var(--color-ocean);
-  background-color: var(--color-white);
-}
 .button-portfolio {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -199,6 +195,13 @@ body {
   /* IRIS */
   color: var(--color-iris);
   background-color: var(--color-cloud);
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--color-white);
+  background-color: var(--color-ocean);
+  cursor: pointer;
 }
 /*Prodjectc-portfolio*/
 .prodject-titel {
