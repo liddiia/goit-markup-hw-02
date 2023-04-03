@@ -28,6 +28,7 @@ body {
 }
 /*heder*/
 .text-nav {
+  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -36,7 +37,12 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
+.text-nav:focus,
+.text-nav:hover {
+  color: var(--color-ocean);
+}
 .text-logo {
+  text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -61,8 +67,13 @@ body {
 
   /* identical to box height, or 150% */
   letter-spacing: 0.02em;
-  color: var(--color-slate);
+  color: #434455;
 }
+.text-adress:focus,
+.text-nav:hover {
+  color: var(--color-ocean);
+}
+
 /* Titel-1 */
 .background-titel {
   background-color: var(--color-grey);
@@ -143,13 +154,15 @@ body {
   text-transform: capitalize;
   color: var(--color-navy-blue);
 }
+/*Section-4-Team*/
+
 .team-cards-fon {
   background-color: var(--color-white);
 }
 .team-cards-titel {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
+  line-height: 1.2;
 
   /* identical to box height, or 120% */
   letter-spacing: 0.02em;
@@ -168,27 +181,48 @@ body {
 }
 /*sec*/
 /*buttons-portfolio*/
-/*button1-as button studio*/
-.text-button-studio-portfolio:hover,
-.text-button-studio-portfolio:focus {
-  color: var(--color-ocean);
-}
 
-.text-buttons-2 {
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--color-ocean);
+  background-color: var(--color-white);
+}
+.button-portfolio {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-
+  line-height: 1.5;
   /* identical to box height, or 150% */
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-
   /* IRIS */
-  color: #4d5ae5;
+  color: var(--color-iris);
+  background-color: var(--color-cloud);
 }
+/*Prodjectc-portfolio*/
+.prodject-titel {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 
+  /* identical to box height, or 120% */
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+  color: #2e2f42;
+}
+.project-paragraf {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  /* identical to box height, or 150% */
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+  color: #434455;
+}
 /*footers*/
 .footer-fon {
   background-color: var(--color-navy-blue);
