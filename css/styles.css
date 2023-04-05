@@ -16,8 +16,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
-  font-style: normal;
+  color: var(--color-slate);
   background-color: var(--color-white);
 }
 .link {
@@ -82,7 +81,6 @@ body {
   background-color: var(--color-grey);
 }
 .text-titel {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
 
@@ -133,7 +131,6 @@ body {
   color: var(--color-navy-blue);
 }
 .features-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 
@@ -173,7 +170,6 @@ body {
 }
 
 .team-cards-prof {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   /* identical to box height, or 150% */
@@ -236,10 +232,8 @@ body {
 .text-footer {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
   color: var(--color-cloud);
 }
